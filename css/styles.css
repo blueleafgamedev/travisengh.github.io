@@ -64,7 +64,6 @@
 }
 
 @media screen and (max-width: 580px) {
-    /*
     * {
         margin: 0;
         padding: 0;
@@ -116,7 +115,6 @@
       .showMenu {
         transform: translateY(0);
       }
-*/
 
     #navbar {
         padding: 20px 10px !important;
