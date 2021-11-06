@@ -67,7 +67,7 @@
     
     .hamburger {
         position: fixed;
-        z-index: 100;
+        z-index: 200;
         top: 1rem;
         right: 1rem;
         padding: 4px;
@@ -82,13 +82,13 @@
 
     .menu {
         position: fixed;
-        transform: translateY(-100%);
+        transform: translateY(-40%);
         transition: transform 0.6s;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        z-index: 99;
+        z-index: 199;
         background: black;
         color: white;
         list-style: none;
@@ -100,7 +100,6 @@
     }
 
 
-    /*
     #navbar {
         padding: 20px 10px !important;
     }
@@ -114,5 +113,4 @@
     #navbar-right {
         float: none;
     }
-    */
 }
