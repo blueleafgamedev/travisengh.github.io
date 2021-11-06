@@ -28,6 +28,8 @@ function toggleMenu() {
         menu.classList.remove("showMenu");
         closeIcon.style.display = "none";
         menuIcon.style.display = "block";
+        navbarRight.style.display = 'none'; 
+        aTags.style.display = 'none';
 
     } else {
         menu.classList.add("showMenu");
