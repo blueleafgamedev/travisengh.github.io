@@ -5,6 +5,15 @@
    box-sizing: border-box;
 }
 
+svg rect {
+    color: lawngreen;
+}
+
+/*Hide hamburger menu*/
+#navbar-right a.hamburger-menu {
+    display: none;
+}
+
 /*Create sticky/fixed navbar*/
 #navbar {
     overflow: hidden;
@@ -34,8 +43,10 @@
     font-size: 35px;
     font-weight: bolder;
     transition: 0.6s;
+    padding-left: 2rem;
 }
 
+/*logo image sizing*/
 #navbar #logo img {
     height: 80px;
     width: 80px;
@@ -58,30 +69,35 @@
 /*Move non logo links to the right*/
 #navbar-right {
     float: right;
+    padding-right: 2rem;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 615px) {
 
     #navbar {
         padding: 20px 10px !important;
     }
 
     #navbar a {
-        float: none;
-        display: inline-flex;
+        float: left;
+        display: block;
         text-align: left;
+    } 
+
+    #navbar #logo {
+        line-height: 42.5px;
     }
 
     #navbar-right {
+        float: none;
+    }
+
+    #navbar-right a { 
         display: none;
     }
 
-    /* Style the hamburger menu */
-#navbar a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
+    #navbar-right a.hamburger-menu {
+        display: block;
+        float: right;
+    }
 }
