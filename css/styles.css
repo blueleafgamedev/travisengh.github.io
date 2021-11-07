@@ -73,6 +73,15 @@
     }
 
     #navbar-right {
-        float: none;
+        display: none;
     }
+
+    /* Style the hamburger menu */
+#navbar a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 }
