@@ -43,7 +43,6 @@ svg rect {
     font-size: 35px;
     font-weight: bolder;
     transition: 0.6s;
-    padding-left: 2rem;
 }
 
 /*logo image sizing*/
@@ -69,7 +68,6 @@ svg rect {
 /*Move non logo links to the right*/
 #navbar-right {
     float: right;
-    padding-right: 2rem;
 }
 
 @media screen and (max-width: 615px) {
@@ -79,7 +77,6 @@ svg rect {
     }
 
     #navbar a {
-        float: left;
         display: block;
         text-align: left;
     } 
@@ -89,7 +86,7 @@ svg rect {
     }
 
     #navbar-right {
-        float: none;
+        
     }
 
     #navbar-right a { 
@@ -98,6 +95,5 @@ svg rect {
 
     #navbar-right a.hamburger-menu {
         display: block;
-        float: right;
     }
 }
