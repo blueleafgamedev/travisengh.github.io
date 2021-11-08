@@ -1,16 +1,20 @@
-/*When user scrolls down 80px from the top of the doc, the navbar's
-padding and logo's size will change!*/
-window.onscroll = function () {
-    scrollFunction
-};
+//Add an active class to hamburger and nav-menu in order to open mobile menu
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
 
-function scrollFunction() {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById('navbar').style.padding = '30px 10px';
-        document.getElementById('logo').style.fontSize = '25px';
-    } else {
-        document.getElementById('navbar').style.padding = '80px 10px';
-        document.getElementById('logo').style.fontSize = '35px';
-    }
+hamburger.addEventListener('click', mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
 }
 
+//Close hamburger menu when clicked
+const navLink =  document.querySelectorAll('.nav-link')
+
+navLink.forEach(n => n.addEventListener('click', closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
+}
