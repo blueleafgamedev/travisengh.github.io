@@ -23,7 +23,8 @@ a {
 
 /*Header*/
 .header {
-    border-bottom: 1px solid #e2e8f0
+    border-bottom: 1px solid #e2e8f0;
+    background-color: rgb(20, 28, 32);
 }
 
 /*Navbar*/
@@ -32,6 +33,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
+   
 }
 
 .nav-menu {
@@ -47,7 +49,7 @@ a {
 .nav-link {
     font-size: 1.6rem;
     font-weight: 400;
-    color: #475569;
+    color: rgb(255, 255, 255)
 }
 
 .nav-link:hover {
@@ -57,7 +59,7 @@ a {
 .nav-logo {
     font-size: 2.1rem;
     font-weight: 500;
-    color: #482ff7;
+    color: rgb(19, 164, 236);
 }
 
 /*Hamburger menu*/
@@ -71,7 +73,7 @@ a {
     height: 3px;
     margin: 5px auto;
     transition: all 0.6s ease-in-out;
-    background-color:  #101010;;
+    background-color:  white;
 }
 
 /*Mobile responsiveness*/
@@ -95,6 +97,10 @@ a {
 
     .nav-item {
         margin: 2.5rem 0;
+    }
+
+    .nav-link {
+        color: rgb(20, 28, 32)
     }
 
     .hamburger {
