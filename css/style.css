@@ -206,7 +206,7 @@ a:active {
 
 /*Potential Hero Section*/
 .hero-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../../Pictures/wp1816225-wall-e-wallpapers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/wp1816225-wall-e-wallpapers.jpg);
     height: 100%;
     width: 100%;
     background-position: center;
