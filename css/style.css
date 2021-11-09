@@ -162,6 +162,10 @@ a {
     margin-bottom: 0;
 }
 
+strong {
+    font-size: 5rem;
+}
+
 .design {
     font-family: 'Permanent Marker', sans-serif;
 }
