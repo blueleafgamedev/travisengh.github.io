@@ -1,6 +1,7 @@
 /*Roboto, Acme, and Permanent Marker font*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Permanent+Marker&display=swap');
+
 /*Reset margins, padding, and box sizing and add some default styles*/
 * {
     margin: 0;
@@ -33,7 +34,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
-   
+
 }
 
 .nav-menu {
@@ -73,7 +74,7 @@ a {
     height: 3px;
     margin: 5px auto;
     transition: all 0.6s ease-in-out;
-    background-color:  white;
+    background-color: white;
 }
 
 /*Mobile responsiveness*/
@@ -89,7 +90,7 @@ a {
         border-bottom-right-radius: 10px;
         text-align: center;
         transition: 0.6s;
-        box-shadow: 0 30px 30px -30px rgb(20, 28, 32);
+        box-shadow: 0 30px 30px -22px rgb(20, 28, 32);
         z-index: 1;
     }
 
