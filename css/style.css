@@ -22,6 +22,10 @@ a {
     text-decoration: none;
 }
 
+a:active a:visited {
+    color: rgb(19, 164, 236);;
+}
+
 /*Header*/
 .header {
     border-bottom: 1px solid #e2e8f0;
@@ -34,7 +38,6 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
-
 }
 
 .nav-menu {
@@ -54,7 +57,7 @@ a {
 }
 
 .nav-link:hover {
-    color: #482ff7;
+    color: rgb(19, 164, 236);
 }
 
 .nav-logo {
@@ -92,6 +95,10 @@ a {
         transition: 0.6s;
         box-shadow: 0 30px 30px -22px rgb(20, 28, 32);
         z-index: 1;
+    }
+
+    a:active {
+        color: rgb(19, 164, 236);;
     }
 
     .nav-menu.active {
