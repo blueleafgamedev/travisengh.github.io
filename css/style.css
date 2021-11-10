@@ -22,10 +22,6 @@ a {
     text-decoration: none;
 }
 
-a:active {
-    color: rgb(19, 164, 236);;
-}
-
 /*Header*/
 .header {
     background-color: rgb(20, 28, 32);
@@ -77,6 +73,68 @@ a:active {
     margin: 5px auto;
     transition: all 0.6s ease-in-out;
     background-color: white;
+}
+
+/*Hero Section*/
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/superiorbanner.jpg);
+    background-color: wheat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+    margin: 0 2rem;
+}
+
+.hero-title {
+    font-size: 7rem;
+    font-weight: 600;
+    margin-bottom: 5%;
+    transition: .6s ease-in-out;
+}
+
+.design {
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+.develop {
+    font-family: 'Acme', sans-serif;
+}
+
+.hero-subtitle {
+    font-size: 5rem;
+    font-weight: 200;
+    margin-bottom: 10%;
+    transition: .6s ease-in-out;
+
+}
+
+
+.hero-button {
+    background-color: rgb(19, 164, 236);
+    color: white;
+    border: 4px solid rgb(6, 71, 104);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: rgb(20, 28, 32);
+    transition: .6s;
 }
 
 /*Mobile responsiveness*/
@@ -148,67 +206,3 @@ a:active {
         transition: .6s ease-in-out;
     }
 }
-
-/*Potential Hero Section*/
-.hero-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/superiorbanner.jpg);
-    background-color: wheat;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.hero-text {
-    text-align: center;
-    color: white;
-    margin: 0 2rem;
-}
-
-.hero-title {
-    font-size: 7rem;
-    font-weight: 600;
-    margin-bottom: 5%;
-    transition: .6s ease-in-out;
-}
-
-.design {
-    font-family: 'Permanent Marker', sans-serif;
-}
-
-.develop {
-    font-family: 'Acme', sans-serif;
-}
-
-.hero-subtitle {
-    font-size: 5rem;
-    font-weight: 200;
-    margin-bottom: 10%;
-    transition: .6s ease-in-out;
-
-}
-
-
-.hero-button {
-    background-color: rgb(19, 164, 236);
-    color: white;
-    border: 4px solid rgb(6, 71, 104);
-    border-radius: 10px;
-    padding: 1rem 2rem;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.4rem;
-    font-weight: bolder;
-    cursor: pointer;
-}
-
-.hero-button:hover {
-    background-color: rgb(20, 28, 32);
-    transition: .6s;
-}
-
-
