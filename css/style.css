@@ -97,10 +97,6 @@ a:active {
         z-index: 1;
     }
 
-    a:active {
-        color: rgb(19, 164, 236);;
-    }
-
     .nav-menu.active {
         left: 0;
     }
@@ -129,6 +125,28 @@ a:active {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+
+    .hero-title {
+        font-size: 5rem !important;
+        transition: .6s ease-in-out;
+    }
+
+    .hero-subtitle {
+        font-size: 3rem !important;
+        transition: .6s ease-in-out;
+    }
+}
+
+@media only screen and (max-width:580px) {
+    .hero-title {
+        font-size: 4rem !important;
+        transition: .6s ease-in-out;
+    }
+
+    .hero-subtitle {
+        font-size: 2rem !important;
+        transition: .6s ease-in-out;
+    }
 }
 
 /*Potential Hero Section*/
@@ -153,9 +171,10 @@ a:active {
 }
 
 .hero-title {
-    font-size: 3rem;
+    font-size: 7rem;
     font-weight: 600;
     margin-bottom: 5%;
+    transition: .6s ease-in-out;
 }
 
 .design {
@@ -167,9 +186,11 @@ a:active {
 }
 
 .hero-subtitle {
-    font-size: 2rem;
+    font-size: 5rem;
     font-weight: 200;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
+    transition: .6s ease-in-out;
+
 }
 
 
