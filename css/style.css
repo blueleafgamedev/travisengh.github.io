@@ -197,12 +197,12 @@ a {
 
 @media only screen and (max-width:768px) {
     .hero-title {
-        font-size: 3.5rem !important;
+        font-size: 3rem !important;
         transition: .6s ease-in-out;
     }
 
     .hero-subtitle {
-        font-size: 2rem !important;
+        font-size: 1.5rem !important;
         transition: .6s ease-in-out;
     }
 }
