@@ -101,7 +101,7 @@ a {
 .hero-title {
     font-size: 7rem;
     font-weight: 600;
-    margin-bottom: 5%;
+    padding-bottom: 5%;
     transition: .6s ease-in-out;
 }
 
@@ -116,7 +116,7 @@ a {
 .hero-subtitle {
     font-size: 5rem;
     font-weight: 200;
-    margin-bottom: 10%;
+    padding-bottom: 15%;
     transition: .6s ease-in-out;
 
 }
